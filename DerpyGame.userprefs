@@ -1,1 +1,13 @@
-﻿<Properties StartupItem="DerpyGame/DerpyGame.csproj" />
+﻿<Properties StartupItem="DerpyGame/DerpyGame.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DerpyGame/Controller/SpaceGame.cs">
+    <Files>
+      <File FileName="DerpyGame/Controller/SpaceGame.cs" Line="74" Column="48" />
+      <File FileName="DerpyGame/Controller/Program.cs" Line="16" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
