@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DerpyGame/Controller/SpaceGame.cs">
     <Files>
-      <File FileName="DerpyGame/Controller/SpaceGame.cs" Line="74" Column="48" />
-      <File FileName="DerpyGame/Controller/Program.cs" Line="16" Column="31" />
+      <File FileName="DerpyGame/Controller/SpaceGame.cs" Line="78" Column="53" />
+      <File FileName="DerpyGame/Model/Player.cs" Line="62" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

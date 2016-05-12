@@ -32,6 +32,11 @@ namespace DerpyGame.Controller
 		{
 			graphics = new GraphicsDeviceManager (this);
 			Content.RootDirectory = "Content";
+
+			graphics.PreferredBackBufferWidth = 800;
+			graphics.PreferredBackBufferHeight = 800;
+			graphics.IsFullScreen = true;
+			graphics.ApplyChanges();
 		}
 
 		/// <summary>
@@ -75,23 +80,19 @@ namespace DerpyGame.Controller
 			player.Position.Y -= currentGamePadState.ThumbSticks.Left.Y *playerMoveSpeed;
 
 			// Use the Keyboard / Dpad
-			if (currentKeyboardState.IsKeyDown(Keys.Left) ||
-				currentGamePadState.DPad.Left == ButtonState.Pressed)
+			if (currentKeyboardState.IsKeyDown(Keys.Left) || currentGamePadState.DPad.Left == ButtonState.Pressed)
 			{
 				player.Position.X -= playerMoveSpeed;
 			}
-			if (currentKeyboardState.IsKeyDown(Keys.Right) ||
-				currentGamePadState.DPad.Right == ButtonState.Pressed)
+			if (currentKeyboardState.IsKeyDown(Keys.Right) || currentGamePadState.DPad.Right == ButtonState.Pressed)
 			{
 				player.Position.X += playerMoveSpeed;
 			}
-			if (currentKeyboardState.IsKeyDown(Keys.Up) ||
-				currentGamePadState.DPad.Up == ButtonState.Pressed)
+			if (currentKeyboardState.IsKeyDown(Keys.Up) || currentGamePadState.DPad.Up == ButtonState.Pressed)
 			{
 				player.Position.Y -= playerMoveSpeed;
 			}
-			if (currentKeyboardState.IsKeyDown(Keys.Down) ||
-				currentGamePadState.DPad.Down == ButtonState.Pressed)
+			if (currentKeyboardState.IsKeyDown(Keys.Down) || currentGamePadState.DPad.Down == ButtonState.Pressed)
 			{
 				player.Position.Y += playerMoveSpeed;
 			}
@@ -118,7 +119,7 @@ namespace DerpyGame.Controller
             
 			// TODO: Add your update logic here
 
-			// Save the previous state of the keyboard and game pad so we can determinesingle key/button presses
+			// Save the previous state of the keyboard and game pad so we can determine single key/button presses
 			previousGamePadState = currentGamePadState;
 			previousKeyboardState = currentKeyboardState;
 

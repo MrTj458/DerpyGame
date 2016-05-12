@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using DerpyGame.View;
 
 
 namespace DerpyGame.Model
@@ -10,6 +11,13 @@ namespace DerpyGame.Model
 		private int score;
 		private bool active;
 		private int health;
+		private Animation playerAnimation;
+
+		public Animation PlayerAnimaion
+		{
+			get{ return playerAnimation; }
+			set{ playerAnimation = value; }
+		}
 
 		public Texture2D PlayerTexture;
 
