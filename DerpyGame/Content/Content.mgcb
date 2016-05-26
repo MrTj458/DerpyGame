@@ -175,3 +175,9 @@
 /processorParam:TextureFormat=Color
 /build:Texture/player.png
 
+#begin Sound/loudLaser.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/loudLaser.wav
+

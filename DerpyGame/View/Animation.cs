@@ -39,7 +39,7 @@ namespace DerpyGame.View
 
 		public int FrameWidth
 		{
-			get{ return FrameWidth; }
+			get{ return frameWidth; }
 			set{ frameWidth = value; }
 		}
 
@@ -48,7 +48,7 @@ namespace DerpyGame.View
 
 		public int FrameHeight
 		{
-			get{ return FrameHeight; }
+			get{ return frameHeight; }
 			set{ frameHeight = value; }
 		}
 
